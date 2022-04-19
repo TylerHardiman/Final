@@ -114,15 +114,15 @@
 			]
 		},
 		{
-			"name": "Cars",
+			"name": "Users",
 			"item": [
 				{
-					"name": "GET all cars (unprotected)",
+					"name": "GET all Users (unprotected)",
 					"request": {
 						"method": "GET",
 						"header": [],
 						"url": {
-							"raw": "http://127.0.0.1:8000/api/cars/all/",
+							"raw": "http://127.0.0.1:8000/api/Users/all/",
 							"protocol": "http",
 							"host": [
 								"127",
@@ -133,7 +133,7 @@
 							"port": "8000",
 							"path": [
 								"api",
-								"cars",
+								"Users",
 								"all",
 								""
 							]
@@ -142,7 +142,7 @@
 					"response": []
 				},
 				{
-					"name": "GET cars for user (protected)",
+					"name": "GET Users for user (protected)",
 					"protocolProfileBehavior": {
 						"disableBodyPruning": true
 					},
@@ -165,7 +165,7 @@
 							}
 						},
 						"url": {
-							"raw": "http://127.0.0.1:8000/api/cars/",
+							"raw": "http://127.0.0.1:8000/api/Users/",
 							"protocol": "http",
 							"host": [
 								"127",
@@ -176,7 +176,7 @@
 							"port": "8000",
 							"path": [
 								"api",
-								"cars",
+								"Users",
 								""
 							]
 						}
@@ -204,7 +204,7 @@
 							}
 						},
 						"url": {
-							"raw": "http://127.0.0.1:8000/api/cars/",
+							"raw": "http://127.0.0.1:8000/api/Users/",
 							"protocol": "http",
 							"host": [
 								"127",
@@ -215,7 +215,7 @@
 							"port": "8000",
 							"path": [
 								"api",
-								"cars",
+								"Users",
 								""
 							]
 						}
